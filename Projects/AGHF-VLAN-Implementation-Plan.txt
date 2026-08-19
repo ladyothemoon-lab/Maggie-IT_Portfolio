@@ -1,0 +1,88 @@
+AGHF VLAN Implementation Plan
+
+Overview
+
+This document outlines the proposed VLAN structure for the AgroHouse Foundation (AGHF) network. VLAN segmentation is used to improve security, performance, and network management by separating users and devices according to organizational function.
+
+--------------------------------------------------
+
+VLAN 10 - Administration
+
+Network:
+192.168.10.0/24
+
+Purpose:
+Administrative systems, leadership devices, and organization management resources.
+
+Devices:
+- Administrative Workstation 1
+- Administrative Workstation 2
+- Administrative Printer
+
+--------------------------------------------------
+
+VLAN 20 - Finance
+
+Network:
+192.168.20.0/24
+
+Purpose:
+Financial records, grant administration, donor management, and accounting functions.
+
+Devices:
+- Finance Workstation
+- Finance Printer
+- Donation Station PC
+
+--------------------------------------------------
+
+VLAN 30 - Volunteers
+
+Network:
+192.168.30.0/24
+
+Purpose:
+Volunteer workstations, educational resources, and community support computers.
+
+Devices:
+- Volunteer PCs
+- Education and Job Search PCs
+
+--------------------------------------------------
+
+VLAN 40 - Wireless Devices
+
+Network:
+192.168.40.0/24
+
+Purpose:
+Wireless printers, mobile devices, and future wireless resources.
+
+Devices:
+- Wireless Printer 1
+- Wireless Printer 2
+- Approved Mobile Devices
+
+--------------------------------------------------
+
+Benefits of VLAN Segmentation
+
+- Improves network security
+- Reduces unnecessary broadcast traffic
+- Protects sensitive financial information
+- Simplifies troubleshooting
+- Improves network performance
+- Supports future organizational growth
+
+--------------------------------------------------
+
+Future Considerations
+
+- VLAN 50 - Guest WiFi
+- VLAN 60 - Network Printers
+- VLAN 70 - Servers
+- WPA3 Wireless Security
+- RADIUS Authentication
+- Network Access Control (NAC)
+
+--------------------------------------------------

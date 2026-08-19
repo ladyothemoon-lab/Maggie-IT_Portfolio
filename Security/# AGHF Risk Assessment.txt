@@ -1,0 +1,23 @@
+# AGHF Risk Assessment
+
+## Risks Identified
+
+| Risk | Likelihood | Impact | Mitigation |
+|--------|------------|--------|------------|
+| Malware | Medium | High | Antivirus, Updates |
+| Ransomware | Medium | High | Backups, Security Training |
+| Unauthorized Access | Medium | High | MFA, Password Policies |
+| Data Loss | Low | High | Backups |
+| Hardware Failure | Medium | Medium | Replacement Plan |
+| WiFi Breach | Low | High | WPA3, Segmentation |
+
+## Risk Management Strategy
+
+AGHF will reduce risk through:
+
+- Security awareness
+- Device hardening
+- VLAN segmentation
+- Strong authentication
+- Regular backups
+- Software updates

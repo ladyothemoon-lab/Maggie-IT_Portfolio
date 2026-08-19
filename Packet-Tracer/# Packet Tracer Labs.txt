@@ -1,0 +1,33 @@
+# Packet Tracer Labs
+
+## Lab 1 - Basic Network Topology
+
+Created a simple network consisting of:
+
+- Router
+- Switch
+- Two PCs
+
+Objectives:
+
+- Configure IP addresses
+- Verify connectivity using ping
+- Practice basic network troubleshooting
+
+---
+
+## Lab 2 - VLAN Configuration
+
+Objectives:
+
+- Create VLANs
+- Assign switch ports
+- Verify network segmentation
+
+---
+
+## Lessons Learned
+
+- Importance of correct IP addressing
+- VLANs improve security and organization
+- Troubleshooting should follow a structured methodology

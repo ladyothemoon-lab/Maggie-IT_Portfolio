@@ -1,0 +1,159 @@
+# AGHF Network Troubleshooting Guide
+
+## Purpose
+
+This guide provides a structured troubleshooting methodology for identifying and resolving common network issues within the AgroHouse Foundation (AGHF) environment.
+
+---
+
+## Troubleshooting Process
+
+### Step 1 - Identify the Problem
+
+Gather information:
+
+- What is not working?
+- Who is affected?
+- When did the issue begin?
+- Has anything changed recently?
+
+---
+
+### Step 2 - Establish a Theory
+
+Possible causes:
+
+- Cabling issue
+- Network device failure
+- Incorrect IP address
+- VLAN misconfiguration
+- Internet outage
+- Wireless interference
+
+---
+
+### Step 3 - Test the Theory
+
+Verify assumptions using available tools.
+
+Common commands:
+
+```bash
+ping
+```
+
+```bash
+tracert
+```
+
+```bash
+ipconfig
+```
+
+---
+
+### Step 4 - Establish a Plan
+
+Determine the best corrective action while minimizing disruption.
+
+---
+
+### Step 5 - Implement the Solution
+
+Examples:
+
+- Replace faulty cable
+- Restart network device
+- Correct VLAN assignment
+- Restore wireless configuration
+
+---
+
+### Step 6 - Verify Functionality
+
+Confirm:
+
+- Users can access resources
+- Internet connectivity is restored
+- Network services function correctly
+
+---
+
+### Step 7 - Document Findings
+
+Record:
+
+- Problem
+- Cause
+- Solution
+- Lessons learned
+
+---
+
+## Common Issues
+
+### No Internet Access
+
+Checklist:
+
+- Verify cable connection
+- Verify Wi-Fi connection
+- Ping default gateway
+- Ping 8.8.8.8
+- Run tracert
+
+---
+
+### Cannot Access Shared Resources
+
+Checklist:
+
+- Verify VLAN assignment
+- Verify IP address
+- Verify switch connectivity
+- Verify permissions
+
+---
+
+### Wireless Connectivity Issues
+
+Checklist:
+
+- Verify correct SSID
+- Verify password
+- Check signal strength
+- Restart access point
+- Confirm WPA3 settings
+
+---
+
+### Printer Connectivity Issues
+
+Checklist:
+
+- Verify printer power
+- Check network connection
+- Verify IP address
+- Confirm VLAN access
+
+---
+
+## Troubleshooting Tools
+
+### Ping
+
+Verifies basic connectivity.
+
+### Tracert
+
+Identifies the path traffic takes through the network.
+
+### IPConfig
+
+Displays device IP configuration.
+
+### Device Logs
+
+Provides information about failures and configuration changes.
+
+---

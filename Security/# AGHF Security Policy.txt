@@ -1,0 +1,162 @@
+# AGHF Security Policy
+
+## Overview
+
+This document outlines the proposed security policy for AgroHouse Foundation (AGHF). The purpose of this policy is to protect organizational systems, data, users, and network resources from unauthorized access, misuse, loss, or compromise.
+
+---
+
+## Security Objectives
+
+AGHF will:
+
+- Protect sensitive organizational information
+- Prevent unauthorized access to systems and data
+- Reduce cybersecurity risks
+- Promote secure computing practices
+- Support regulatory and operational requirements
+
+---
+
+## Access Control
+
+### Principle of Least Privilege
+
+Users shall only receive the minimum level of access required to perform their duties.
+
+Examples:
+
+- Volunteers receive access only to volunteer resources.
+- Administrative users receive access to operational resources.
+- Finance users receive access to financial systems.
+
+---
+
+## Authentication
+
+All users must authenticate before accessing organizational resources.
+
+Requirements:
+
+- Unique user accounts
+- Strong passwords
+- Password changes as required
+- Multi-Factor Authentication (MFA) whenever available
+
+---
+
+## Authorization
+
+Access permissions shall be assigned according to role and responsibility.
+
+Example Roles:
+
+- Administration
+- Finance
+- Volunteers
+- Guests
+
+Access shall be reviewed periodically.
+
+---
+
+## Accounting and Auditing
+
+System activity should be logged where possible.
+
+Examples:
+
+- Login activity
+- Failed login attempts
+- Administrative changes
+- Security-related events
+
+---
+
+## Wireless Security
+
+Wireless networks shall:
+
+- Use WPA3 encryption when available
+- Utilize strong passphrases
+- Separate guest and internal traffic
+- Restrict unauthorized devices
+
+---
+
+## Device Security
+
+All organizational devices should:
+
+- Receive regular updates
+- Utilize antivirus or endpoint protection
+- Maintain active firewalls
+- Use secure account credentials
+
+---
+
+## Data Protection
+
+Sensitive information should be:
+
+- Stored securely
+- Backed up regularly
+- Shared only with authorized individuals
+- Protected from unauthorized disclosure
+
+---
+
+## Network Security
+
+The AGHF network utilizes VLAN segmentation to separate:
+
+- Administration Systems
+- Finance Systems
+- Volunteer Systems
+- Guest Access
+
+Segmentation reduces risk and improves security management.
+
+---
+
+## Incident Response
+
+If a security incident occurs:
+
+1. Identify the issue.
+2. Isolate affected systems if necessary.
+3. Notify appropriate personnel.
+4. Document findings.
+5. Remediate the issue.
+6. Review lessons learned.
+
+---
+
+## Future Enhancements
+
+Future security improvements may include:
+
+- Network Access Control (NAC)
+- Centralized Authentication (RADIUS)
+- VPN Access
+- Intrusion Detection Systems (IDS)
+- Security Monitoring and Reporting
+
+---
+
+## Skills Demonstrated
+
+- Security Policy Development
+- Access Control Concepts
+- AAA (Authentication, Authorization, Accounting)
+- Network Security
+- Risk Management
+- Network+ Security Concepts
+
+---
+
+### Author
+
+Maggie Baty
+
+CompTIA Network+ Portfolio Project

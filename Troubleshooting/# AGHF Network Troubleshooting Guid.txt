@@ -1,0 +1,22 @@
+# AGHF Network Troubleshooting Guide
+
+## No Internet Access
+
+1. Check Ethernet connection
+2. Verify Wi-Fi connection
+3. Ping the default gateway
+4. Ping 8.8.8.8
+5. Run tracert
+
+## Cannot Access Internal Resources
+
+1. Verify VLAN assignment
+2. Check switch port status
+3. Verify IP address
+
+## Wireless Issues
+
+1. Verify SSID
+2. Verify password
+3. Check signal strength
+4. Restart access point
