@@ -1,0 +1,85 @@
+# AGHF Network Design
+
+## Overview
+
+This project outlines a proposed network design for AgroHouse Foundation (AGHF). The goal is to create a secure, scalable, and cost-effective network to support administrative operations, volunteers, communications, and future growth.
+
+## Network Requirements
+
+- Internet access
+- Secure wireless access
+- Administrative workstation support
+- Volunteer workstation support
+- Network printing
+- Future scalability
+- Segmented access for security
+
+## Proposed Network
+
+```text
+Internet
+    │
+    ▼
+Router / Firewall
+    │
+    ▼
+Managed Switch
+    ├── Administration PCs
+    ├── Volunteer PCs
+    ├── Network Printer
+    ├── Wireless Access Point
+    └── Future Devices
+```
+
+## VLAN Plan
+
+### VLAN 10 - Administration
+
+Used for leadership and administrative operations.
+
+### VLAN 20 - Finance
+
+Used for financial records, budgets, and grant administration.
+
+### VLAN 30 - Volunteers
+
+Used for volunteer activities and shared resources.
+
+### VLAN 40 - Guest WiFi
+
+Used for visitors and public internet access.
+
+## Security Measures
+
+- WPA3 wireless encryption
+- Strong password policy
+- Principle of least privilege
+- Regular software updates
+- Malware protection
+- Scheduled backups
+- VLAN segmentation
+
+## Hardware
+
+- ISP Internet Connection
+- Router / Firewall
+- Managed Switch
+- Wireless Access Point
+- Desktop and Laptop Computers
+- Network Printer
+
+## Benefits
+
+- Improved security
+- Easier management
+- Better performance
+- Room for organizational growth
+- Separation of sensitive information
+
+## Skills Demonstrated
+
+- Network Planning
+- Network Documentation
+- VLAN Design
+- Security Concepts
+- Infrastructure Design
