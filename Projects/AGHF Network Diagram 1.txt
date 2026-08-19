@@ -1,0 +1,29 @@
+# AGHF Network Diagram
+
+## Overview
+
+This network diagram represents a proposed network architecture for AgroHouse Foundation (AGHF). The design was created to support organizational operations while maintaining security, reliability, scalability, and efficient network management.
+
+## Design Goals
+
+- Secure sensitive organizational data
+- Separate users and devices based on function
+- Improve network performance through segmentation
+- Provide secure wireless connectivity
+- Support organizational growth
+- Reduce the risk of unauthorized access
+
+---
+
+## Network Architecture
+
+The AGHF network utilizes a centralized design where all network traffic passes through a router/firewall and a managed core switch.
+
+```text
+Internet
+   │
+Router/Firewall
+   │
+Managed Core Switch
+   │
+VLAN Segmented Network
